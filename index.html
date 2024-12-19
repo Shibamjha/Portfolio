@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shibam Portfolio</title>
+    <link rel="stylesheet" href="./assets/Css/Style.css">
+    <link rel="stylesheet" href="./assets/Css/media_query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--container-->
+    <div class="container">
+        <!--Header-->
+        <header>
+            <!--navbar toggle open button-->
+            <button class="menu-open-btn">
+                <span>Menu</span>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <nav class="nav">
+                <button class="menu-close-btn" >
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+                <h4 class="nav-heading">Menu</h4>
+
+                <ul>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav-footer">
+                    <ul class="social-link">
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p>Developed by <a href="#" class="link-underline">codewithshiv</a></p>
+                </div>
+            </nav>
+
+            <!--Header intro-->
+            <section class="intro section-padding">
+                <div class="intro-profile">
+                    <div class="intro-border one"></div>
+                    <div class="intro-border two"></div>
+
+                    <div class="img-box">
+                        <img src="./assets/images/shiv_img1.jpg" alt=""
+                        class="intro-img" width="100%" loading="lazy">
+                    </div>
+
+                    <p>Hi there! I am</p>
+
+                    <div class="profile-name">
+                        <span>[</span>
+                        <div>Shibam Jha</div>
+                        <span>]</span>
+                    </div>
+                </div>
+                <a href="#contact" class="intro-link">
+                    <span class="circle"></span>
+                    <span class="link-underline">I'm available for a fulltime job. Hire me</span>
+                </a>
+            </section>
+        </header>
+
+        <main>
+            <!--Home-->
+
+            <section class="section-padding" id="home">
+                <h3 class="section-subtitle">Introduction</h3>
+                <h2 class="section-title">UI/UX designer</h2>
+                <p class="section-desc">I design and develop services for customers of all sizes,specializing in creating stylish,modern websites,webservices and online stores.</p>
+
+                <img src="./assets/images/signature.png" width="400px" alt="" loading="lazy" >
+            </section>
+
+            <!-- About -->
+
+            <section class="section-padding" id="about">
+                <h3 class="section-subtitle">About Me</h3>
+                <h2 class="section-title">Biography</h2>
+                <p class="section-desc">I'm a Front-end Developer and currently a fresher.
+                    I am from kolkata. I code and create web elements for modern websites. I like work with new people and solve new challenges.
+                </p>
+
+
+                <table class="about-table">
+                    <tr>
+                        <th>Name</th>
+                        <td>Shibam Jha</td>
+                    </tr>
+                    <tr>
+                        <th>Birthday</th>
+                        <td>7th January 2003</td>
+                    </tr>                    <tr>
+                        <th>Age</th>
+                        <td>21</td>
+                    </tr>                    <tr>
+                        <th>Adress</th>
+                        <td>Konnagar,West Bengal,712246</td>
+                    </tr>                    <tr>
+                        <th>Phone</th>
+                        <td>
+                            <a href="tel:+1234567891011" class="link-underline">(+91)9123848694</a>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th>Email</th>
+                        <td>
+                            <a href="mailto:" class="link-underline">shibamcoder@gmail.com</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <button class="download-cv" onclick="downloadCV()">
+                    <ion-icon name="cloud-download-outline"></ion-icon>
+                    <span>Download cv</span>
+                </button>
+
+                <div class="about-tab">
+                    <ul class="tab-nav">
+                        <li>
+                            <button class="one tab-button active">Experience</button>
+                        </li>
+                        <li>
+                            <button class="one tab-button">Education</button>
+                        </li>
+                        <li>
+                            <button class="one tab-button">Skills</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content-group">
+                        <div class="one tab-content active">
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>Cipherbyte Technologies</h4>
+                                    <p>(July 2023 - August 2023)</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Java Developer Intern</h3>
+                                    <p>• 2 projects created : Guessing number game, Atm-interface</p>
+                                </div>
+                            </div>
+
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>Oasis Infobyte</h4>
+                                    <p>(February 2023 - March 2023)</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Front-end Developer Intern</h3>
+                                    <p>• 3 projects created : Calculator, Portfolio Website, Tribute</p>
+                                </div>
+                            </div>
+
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>IBM SkillBuild</h4>
+                                    <p>( July 2024 - August 2024 )</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Artificial Intelligence</h3>
+                                    <p>Created a Chatbot to increase awareness of fresh water conservation using IBM WatsonX.</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="two tab-content">
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>MCKV Institute Of  Engineering</h4>
+                                    <p>( 2021-2025 )</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Btech ( Information Technology )</h3>
+                                    <p>CGPA - 8.63</p>
+                                </div>
+                            </div>
+
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>Shree Jain Vidyalaya</h4>
+                                    <p>(2020-2021)</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Higher Secondary Education ( Science )</h3>
+                                    <p>Percentage - 70.67</p>
+                                </div>
+                            </div>
+
+                            <div class="content-card">
+                                <div class="card-head">
+                                    <h4>HindMotor High School</h4>
+                                    <p>( 2018-2019 )</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3>Seconday Education</h3>
+                                    <p>Percentage - 71.57</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="three tab-content">
+                            <div class="skill-box">
+                                <h4 class="skill-name">HTML5 & CSS3</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 92%;"></div>
+                                    <div class="progress-rate" style="left: 92%;">92%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-box">
+                                <h4 class="skill-name">Java</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 72%;"></div>
+                                    <div class="progress-rate" style="left: 72%;">72%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-box">
+                                <h4 class="skill-name">Sql</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 62%;"></div>
+                                    <div class="progress-rate" style="left: 62%;">62%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-box">
+                                <h4 class="skill-name">Javascript</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%;"></div>
+                                    <div class="progress-rate" style="left: 70%;">72%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-box">
+                                <h4 class="skill-name">React Js,Node Js,Express JS</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 62%;"></div>
+                                    <div class="progress-rate" style="left: 62%;">62%</div>
+                                </div>
+                            </div>
+
+                            <p class="skill-text">
+                                A creative designer with a love and passion for minimal design, clean typography and well-written code,located in West bengal,India. Provide high quality and cost effective web and software development services and keen to learn new technologies and methods to enchance my knowledge and skills.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio -->
+             <section class="section-padding" id="portfolio">
+
+                <h3 class="section-subtitle">Portfolio</h3>
+                <div class="wrapper">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="btn-group">
+
+                        <button id="portfolio-carousel-prev">
+                            <div class="arrow">
+                                <div class="arrow-head-left"></div>
+                            </div>
+                        </button>
+
+                        <button id="portfolio-carousel-next">
+                            <div class="arrow">
+                                <div class="arrow-head-right"></div>
+                            </div>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="portfolio-carousel">
+                    <div class="portfolio-carousel-inner">
+                        <div class="portfolio-carousel-card">
+                            <div class="card-head">
+                                 <img src="./assets/images/Screenshot (255).png" alt="" class="slider-img" width="100%" loading="lazy">
+                            </div>
+
+                            <div class="card-body">
+                                <p>Fell the griz, that make you dance</p>
+                                <h4><a href="https://shibamjha.github.io/Music-Player/">Music Player</a></h4>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-carousel-card">
+                            <div class="card-head">
+                                <img src="./assets/images/Screenshot (257).png" alt="" class="slider-img" width="100%" loading="lazy">
+                            </div>
+
+                            <div class="card-body">
+                                <p>Keep Your task alligned.</p>
+                                <h4><a href="https://shibamjha.github.io/To-Do/">To-Do List</a></h4>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-carousel-card">
+                            <div class="card-head">
+                                <img src="./assets/images/project-1.png" alt="" class="slider-img" width="100%" loading="lazy">
+                            </div>
+
+                            <div class="card-body">
+                                <p>Know your location on world map</p>
+                                <h4><a href="#">Realtime Tracker</a></h4>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-carousel-card">
+                            <div class="card-head">
+                                <img src="./assets/images/Screenshot (258).png" alt="" class="slider-img" width="100%" loading="lazy">
+                            </div>
+
+                            <div class="card-body">
+                                <p>Portfolio made in React</p>
+                                <h4><a href="https://shivam-deploy.pages.dev/">React Portfolio</a></h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+             </section>
+
+              <!-- Contact -->
+              <section class="section-padding" id="contact">
+                <h3 class="section-subtitle">Contact</h3>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-desc">If you Have any suggestion, project or even you want to say "Hello",please fill out form below and I will reply you shortly.</p>
+
+                <form action="#" class="contact-form">
+                    <div class="wrapper">
+                        <div>
+                            <label for="name">Name *</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email *</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+
+                    <div>
+                        <label for="name">Message</label>
+                        <textarea name="message" id="message" rows="8"></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="adress">
+                    <h4>Adress</h4>
+                    <address>102,Shantikunj Apartment,Adarsh Nagar,Konnagar,Hooghly,West Bengal,India,712246</address>
+                </div>
+
+                <div class="phone">
+                    <h4>Phone</h4>
+                    <a href="tel:+1234567890">(+91) 9123848694</a>
+                </div>
+
+                <div class="email">
+                    <a href="mailto:shibamcoder@gmail.com" class="Link-underline">shibamcoder@gmail.com</a>
+                </div>
+              </section>
+
+              <!-- Footer -->
+               <div class="footer">
+                <a href="#home" class="go-top">
+                    <div class="arrow">
+                        <div class="arrow-head"></div>
+                    </div>
+                </a>
+
+                <p class="copyright">
+                    Copyright @ 2021. All rights reserved.
+                    <br>
+                    Developed by <a href="#" class="link-underline">codewithshibam</a>
+                </p>
+               </div>
+
+        </main>
+        
+    </div>
+    <script src="./assets/Js/Script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
